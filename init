@@ -1,6 +1,6 @@
 sudo apt install torch nload htop -y
-pip config --user set global.cache-dir /your/desired/path
-pip install 'accelerate>=0.26.0' transformers modelscope
 
+pip install 'accelerate>=0.26.0' transformers modelscope --no-cache-dir
 
+pip config --user set global.cache-dir /tmp
 pip config --user set global.cache-dir /tmp
