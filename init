@@ -1,0 +1,2 @@
+sudo apt install torch nload htop -y
+pip install 'accelerate>=0.26.0' transformers modelscope
